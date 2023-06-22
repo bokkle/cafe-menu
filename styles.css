@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(./assets/coffee-beans-bg.jpg); 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: burlywood;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border: brown;
+    margin: 10px 0;
+}
+
+.item p {
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+/* FOOTER  */
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.bottom__line {
+    margin-top: 25px;
+    margin-bottom: 15px;;
+}
+
+a {
+    font-size: 16px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: white;
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .item p {
+        font-size: 16px;
+    }
+    a {
+        font-size: 16px;
+    }
+    .address {
+        font-size: 14px;
+    }
+}
